@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPFormulaBuilder", "src\SPFormulaBuilder\SPFormulaBuilder.csproj", "{DC25ABA8-6E4E-43DB-981B-01388D8B28B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPFormulaBuilderTest", "src\SPFormulaBuilderTest\SPFormulaBuilderTest.csproj", "{AF2D3C9D-8670-447A-A26F-3DA385EA1594}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{05DBD04D-7102-4EA7-B9F3-A9EB942C897C}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		SPFormulaBuilder.vsmdi = SPFormulaBuilder.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs27
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = src\\SPFormulaBuilder\\SPFormulaBuilder.csproj
+		SccProjectName1 = SPFormulaBuilder
+		SccLocalPath1 = SPFormulaBuilder
+		SccProjectUniqueName2 = src\\SPFormulaBuilderTest\\SPFormulaBuilderTest.csproj
+		SccProjectName2 = SPFormulaBuilderTest
+		SccLocalPath2 = SPFormulaBuilderTest
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = SPFormulaBuilder.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC25ABA8-6E4E-43DB-981B-01388D8B28B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC25ABA8-6E4E-43DB-981B-01388D8B28B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC25ABA8-6E4E-43DB-981B-01388D8B28B9}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{DC25ABA8-6E4E-43DB-981B-01388D8B28B9}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{DC25ABA8-6E4E-43DB-981B-01388D8B28B9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DC25ABA8-6E4E-43DB-981B-01388D8B28B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC25ABA8-6E4E-43DB-981B-01388D8B28B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC25ABA8-6E4E-43DB-981B-01388D8B28B9}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{DC25ABA8-6E4E-43DB-981B-01388D8B28B9}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{DC25ABA8-6E4E-43DB-981B-01388D8B28B9}.Release|x86.ActiveCfg = Release|Any CPU
+		{AF2D3C9D-8670-447A-A26F-3DA385EA1594}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF2D3C9D-8670-447A-A26F-3DA385EA1594}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF2D3C9D-8670-447A-A26F-3DA385EA1594}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{AF2D3C9D-8670-447A-A26F-3DA385EA1594}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{AF2D3C9D-8670-447A-A26F-3DA385EA1594}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AF2D3C9D-8670-447A-A26F-3DA385EA1594}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF2D3C9D-8670-447A-A26F-3DA385EA1594}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF2D3C9D-8670-447A-A26F-3DA385EA1594}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{AF2D3C9D-8670-447A-A26F-3DA385EA1594}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{AF2D3C9D-8670-447A-A26F-3DA385EA1594}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

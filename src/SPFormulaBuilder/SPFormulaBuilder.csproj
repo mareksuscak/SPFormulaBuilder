@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DC25ABA8-6E4E-43DB-981B-01388D8B28B9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Expirio.Sharepoint</RootNamespace>
+    <AssemblyName>SPFormulaBuilder</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\Attributes\OptionalParameter.cs" />
+    <Compile Include="Base\Attributes\RequiredParameter.cs" />
+    <Compile Include="Base\ExtendedElement.cs" />
+    <Compile Include="Base\Element.cs" />
+    <Compile Include="Base\Interfaces\IValueType.cs" />
+    <Compile Include="Base\Interfaces\IConditionalType.cs" />
+    <Compile Include="Base\Operation.cs" />
+    <Compile Include="Elements\Basic\ColumnReference.cs" />
+    <Compile Include="Elements\Basic\ConstantLiteral.cs" />
+    <Compile Include="Elements\Basic\PercentageLiteral.cs" />
+    <Compile Include="Elements\Basic\Text.cs" />
+    <Compile Include="Elements\Basic\Int.cs" />
+    <Compile Include="Elements\Basic\Group.cs" />
+    <Compile Include="Elements\Basic\NumberLiteral.cs" />
+    <Compile Include="Elements\Basic\Expression.cs" />
+    <Compile Include="Elements\Basic\Formula.cs" />
+    <Compile Include="Base\Interfaces\IElementType.cs" />
+    <Compile Include="Elements\Basic\StringLiteral.cs" />
+    <Compile Include="Elements\Conditional\Switch.cs" />
+    <Compile Include="Elements\Conditional\IsNumber.cs" />
+    <Compile Include="Elements\Conditional\If.cs" />
+    <Compile Include="Elements\Conditional\And.cs" />
+    <Compile Include="Elements\Conditional\IsError.cs" />
+    <Compile Include="Elements\Conditional\Or.cs" />
+    <Compile Include="Elements\Conditional\Not.cs" />
+    <Compile Include="Elements\DateTime\WeekDay.cs" />
+    <Compile Include="Elements\DateTime\DateValue.cs" />
+    <Compile Include="Elements\DateTime\Hour.cs" />
+    <Compile Include="Elements\DateTime\Minute.cs" />
+    <Compile Include="Elements\DateTime\Second.cs" />
+    <Compile Include="Elements\DateTime\DateDiff.cs" />
+    <Compile Include="Elements\DateTime\Day.cs" />
+    <Compile Include="Elements\DateTime\Month.cs" />
+    <Compile Include="Elements\DateTime\Year.cs" />
+    <Compile Include="Elements\DateTime\Date.cs" />
+    <Compile Include="Elements\Mathematical\Abs.cs" />
+    <Compile Include="Elements\Mathematical\Average.cs" />
+    <Compile Include="Elements\Mathematical\Len.cs" />
+    <Compile Include="Elements\Mathematical\RoundUp.cs" />
+    <Compile Include="Elements\Mathematical\RoundDown.cs" />
+    <Compile Include="Elements\Mathematical\Round.cs" />
+    <Compile Include="Elements\Mathematical\Odd.cs" />
+    <Compile Include="Elements\Mathematical\Even.cs" />
+    <Compile Include="Elements\Mathematical\Power.cs" />
+    <Compile Include="Elements\Mathematical\Count.cs" />
+    <Compile Include="Elements\Mathematical\Max.cs" />
+    <Compile Include="Elements\Mathematical\Min.cs" />
+    <Compile Include="Elements\Mathematical\Median.cs" />
+    <Compile Include="Elements\Mathematical\Product.cs" />
+    <Compile Include="Elements\Mathematical\Sum.cs" />
+    <Compile Include="Elements\Text\Rept.cs" />
+    <Compile Include="Elements\Text\Trim.cs" />
+    <Compile Include="Elements\Text\Right.cs" />
+    <Compile Include="Elements\Text\Left.cs" />
+    <Compile Include="Elements\Text\Counta.cs" />
+    <Compile Include="Elements\Text\Find.cs" />
+    <Compile Include="Elements\Text\Exact.cs" />
+    <Compile Include="Elements\Text\Proper.cs" />
+    <Compile Include="Elements\Text\Lower.cs" />
+    <Compile Include="Elements\Text\Concatenate.cs" />
+    <Compile Include="Elements\Text\Upper.cs" />
+    <Compile Include="SPFormulaBuilder.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
