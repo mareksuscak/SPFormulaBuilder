@@ -48,6 +48,7 @@ You could notice usage of '+' sign in the expression.
 
 License
 -------
+The MIT License (MIT)
 
 Copyright (c) 2013 Marek Suscak
 http://suscak.com
